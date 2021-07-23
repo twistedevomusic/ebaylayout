@@ -20,7 +20,7 @@ html {
   max-width: 114rem;
   margin: 0 auto; }
   .row:not(:last-child) {
-    margin-bottom: 8rem; }
+    margin-bottom: 4rem; }
   .row::after {
     content: "";
     display: table;
@@ -68,7 +68,8 @@ html {
     display: inline-block;
     font-size: 3.5rem;
     font-weight: 400;
-    letter-spacing: 0.7rem; }
+    letter-spacing: 0.7rem;
+    margin-bottom: 1rem; }
 
 .fine-print--details {
   font-size: 1.2rem; }
@@ -82,7 +83,7 @@ html {
   text-align: center; }
 
 .listing-primary {
-  margin: 3rem 0 3rem 0; }
+  margin: 2rem 0 2rem 0; }
 
 .border {
   display: block;

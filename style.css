@@ -47,6 +47,7 @@ html {
   color: #777; }
 
 .company-name {
+  font-weight: 400;
   margin-top: 3rem;
   text-align: center;
   font-size: 9rem;

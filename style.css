@@ -43,14 +43,12 @@ html {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .body {
-  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
   color: #777; }
 
 .company-name {
-  font-family: "Fuggles";
   margin-top: 3rem;
   text-align: center;
   font-size: 9rem;

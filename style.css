@@ -8,7 +8,7 @@
 html {
   font-size: 62.5%; }
 
-body {
+.body {
   box-sizing: border-box; }
 
 .listing {
@@ -40,39 +40,48 @@ body {
   .row .col-3-of-4 {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
-body {
+.body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.7;
   color: #777; }
 
 .company-name {
-  margin: 5rem 0rem; }
+  font-family: Fuggles;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 9rem;
+  color: #690606; }
 
 .product-primary {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  display: inline-block; }
   .product-primary--main {
     display: inline-block;
     font-size: 5rem;
     font-weight: 400;
-    letter-spacing: 1rem;
-    margin-bottom: 2rem; }
+    letter-spacing: 1rem; }
   .product-primary--sub {
     display: inline-block;
     font-size: 3.5rem;
     font-weight: 400;
-    letter-spacing: 1rem;
-    margin-bottom: 2rem; }
+    letter-spacing: 0.7rem; }
+
+.fine-print--details {
+  font-size: 1.2rem; }
 
 .image-primary {
   display: inline-block;
   height: 50vh;
-  margin: auto;
   text-align: center; }
 
 .listing-picture {
   text-align: center; }
 
 .listing-primary {
-  margin: 5rem 0 5rem 0; }
+  margin: 3rem 0 3rem 0; }
+
+.border {
+  display: block;
+  border-bottom: 1px solid; }

@@ -58,15 +58,15 @@ html {
   display: inline-block; }
   .product-primary--main {
     display: inline-block;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 400;
-    letter-spacing: 1rem;
+    letter-spacing: .8rem;
     margin: 0 auto; }
   .product-primary--sub {
     display: inline-block;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
-    letter-spacing: 0.7rem;
+    letter-spacing: 0.5rem;
     margin-bottom: 1rem; }
 
 .fine-print--details {

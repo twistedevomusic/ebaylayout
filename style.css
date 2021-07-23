@@ -61,7 +61,7 @@ html {
     font-size: 4rem;
     font-weight: 400;
     letter-spacing: .8rem;
-    margin: 0 auto; }
+    margin-bottom: 1rem; }
   .product-primary--sub {
     display: inline-block;
     font-size: 3rem;
